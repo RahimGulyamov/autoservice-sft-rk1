@@ -1,0 +1,72 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793891466.421308    3726 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793891470.074530    3726 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+{'gpu': 'Tesla T4', 'torch': '2.11.0+cu130', 'cuda': '13.0', 'seed': 42, 'packages': {'transformers': '4.51.3', 'peft': '0.15.2', 'accelerate': '1.6.0', 'bitsandbytes': '0.48.2', 'datasets': '3.5.0'}}
+Thu Nov  5 15:11:12 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.82.07              Driver Version: 580.82.07      CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  Tesla T4                       Off |   00000000:00:04.0 Off |                    0 |
+| N/A   69C    P8             10W /   70W |       3MiB /  15360MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]/usr/local/lib/python3.13/dist-packages/bitsandbytes/backends/cuda/ops.py:212: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+
+Loading checkpoint shards:  50%|█████     | 1/2 [00:13<00:13, 13.42s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:19<00:00,  8.88s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:19<00:00,  9.56s/it]
+/usr/local/lib/python3.13/dist-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/transformers/generation/configuration_utils.py:653: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/bitsandbytes/backends/cuda/ops.py:464: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+after: 1/24; format=False; 165 tokens
+Срочность: остановиться. Признаки серьёзной опасности.
+Возможные причины: Возможны дефекты в системе тормозов или проблемы с дисками; также может быть проблема с ABS.
+Что сделать: Безопасно прекратите движение и организуйте помощь. Не продолжайте поездку при потере торможения. Если есть возможность, обратитесь в сервис для проверки системы тормозов и дисков. Если система работает исправно, но есть дефекты в шинах, безопасно можно продолжить поездку, но с осторожностью. Если нет возможности вызвать помощь, безопасно остановитесь на безопасном месте и сообщите о ситуации.
+after: 2/24; format=False; 157 tokens
+after: 3/24; format=False; 175 tokens
+Срочность: остановиться. Признаки серьёзной опасности.
+Возможные причины: Возможны проблемы с системой отображения уровня масла или повреждение системы подачи топлива. Не исключено перегрев двигателя из-за недостаточного давления масла.
+Что сделать: Безопасно остановитесь на безопасном месте и сообщите о проблемах в сервис. Не продолжайте движение, если двигатель застучивает. Не пытайтесь самостоятельно проверить уровень масла, так как это может вызвать дополнительные неудобства. Если есть возможность, запишитесь на плановое обслуживание для обследования системы подачи топлива и системы отображения уровня масла.
+after: 4/24; format=False; 127 tokens
+after: 5/24; format=True; 155 tokens
+after: 6/24; format=True; 136 tokens
+after: 7/24; format=False; 135 tokens
+after: 8/24; format=True; 185 tokens
+after: 9/24; format=True; 165 tokens
+after: 10/24; format=False; 384 tokens
+after: 11/24; format=True; 130 tokens
+after: 12/24; format=True; 173 tokens
+after: 13/24; format=True; 153 tokens
+after: 14/24; format=True; 138 tokens
+after: 15/24; format=True; 193 tokens
+after: 16/24; format=True; 208 tokens
+after: 17/24; format=True; 163 tokens
+after: 18/24; format=False; 128 tokens
+after: 19/24; format=True; 185 tokens
+after: 20/24; format=False; 190 tokens
+after: 21/24; format=True; 219 tokens
+after: 22/24; format=True; 196 tokens
+after: 23/24; format=False; 168 tokens
+after: 24/24; format=True; 226 tokens

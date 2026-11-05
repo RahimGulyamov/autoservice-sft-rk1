@@ -1,0 +1,60 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793891961.081032    5788 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793891964.274394    5788 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+{'gpu': 'Tesla T4', 'torch': '2.11.0+cu130', 'cuda': '13.0', 'seed': 42, 'packages': {'transformers': '4.51.3', 'peft': '0.15.2', 'accelerate': '1.6.0', 'bitsandbytes': '0.48.2', 'datasets': '3.5.0'}}
+Thu Nov  5 15:19:27 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.82.07              Driver Version: 580.82.07      CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  Tesla T4                       Off |   00000000:00:04.0 Off |                    0 |
+| N/A   73C    P8             11W /   70W |       3MiB /  15360MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]
+Fetching 4 files:  25%|██▌       | 1/4 [02:34<07:43, 154.39s/it]
+Fetching 4 files: 100%|██████████| 4/4 [02:34<00:00, 38.60s/it] 
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]/usr/local/lib/python3.13/dist-packages/bitsandbytes/backends/cuda/ops.py:212: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+
+Loading checkpoint shards:  25%|██▌       | 1/4 [00:16<00:49, 16.55s/it]
+Loading checkpoint shards:  50%|█████     | 2/4 [00:34<00:34, 17.29s/it]
+Loading checkpoint shards:  75%|███████▌  | 3/4 [00:51<00:17, 17.38s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [01:07<00:00, 16.73s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [01:07<00:00, 16.90s/it]
+/usr/local/lib/python3.13/dist-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/transformers/generation/configuration_utils.py:653: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/bitsandbytes/backends/cuda/ops.py:464: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+judge 1/12, valid=True
+judge 2/12, valid=True
+judge 3/12, valid=True
+judge 4/12, valid=True
+judge 5/12, valid=True
+judge 6/12, valid=True
+judge 7/12, valid=True
+judge 8/12, valid=True
+judge 9/12, valid=True
+judge 10/12, valid=True
+judge 11/12, valid=True
+judge 12/12, valid=True

@@ -1,0 +1,9 @@
+Built with Qwen.
+
+Qwen is licensed under the Qwen RESEARCH LICENSE AGREEMENT,
+Copyright (c) Alibaba Cloud. All Rights Reserved.
+
+Modifications: educational LoRA adaptation of Qwen/Qwen2.5-3B-Instruct
+for Russian autoservice intake replies, trained on 2026-11-05.
+The adapter weights are newly trained, not the original Qwen weights.
+See LICENSE-QWEN.txt and outputs/adapter/MODIFICATIONS.md.

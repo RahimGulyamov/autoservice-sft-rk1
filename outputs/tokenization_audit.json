@@ -1,0 +1,542 @@
+[
+  {
+    "id": "oil_red_0",
+    "tokens": 549,
+    "answer_tokens": 182
+  },
+  {
+    "id": "oil_red_1",
+    "tokens": 560,
+    "answer_tokens": 182
+  },
+  {
+    "id": "oil_red_2",
+    "tokens": 558,
+    "answer_tokens": 182
+  },
+  {
+    "id": "oil_red_3",
+    "tokens": 557,
+    "answer_tokens": 182
+  },
+  {
+    "id": "oil_red_4",
+    "tokens": 557,
+    "answer_tokens": 182
+  },
+  {
+    "id": "overheat_steam_0",
+    "tokens": 553,
+    "answer_tokens": 177
+  },
+  {
+    "id": "overheat_steam_1",
+    "tokens": 563,
+    "answer_tokens": 177
+  },
+  {
+    "id": "overheat_steam_2",
+    "tokens": 561,
+    "answer_tokens": 177
+  },
+  {
+    "id": "overheat_steam_3",
+    "tokens": 560,
+    "answer_tokens": 177
+  },
+  {
+    "id": "overheat_steam_4",
+    "tokens": 560,
+    "answer_tokens": 177
+  },
+  {
+    "id": "brake_soft_0",
+    "tokens": 560,
+    "answer_tokens": 191
+  },
+  {
+    "id": "brake_soft_1",
+    "tokens": 571,
+    "answer_tokens": 191
+  },
+  {
+    "id": "brake_soft_2",
+    "tokens": 569,
+    "answer_tokens": 191
+  },
+  {
+    "id": "brake_soft_3",
+    "tokens": 568,
+    "answer_tokens": 191
+  },
+  {
+    "id": "brake_soft_4",
+    "tokens": 568,
+    "answer_tokens": 191
+  },
+  {
+    "id": "fuel_leak_0",
+    "tokens": 559,
+    "answer_tokens": 195
+  },
+  {
+    "id": "fuel_leak_1",
+    "tokens": 570,
+    "answer_tokens": 195
+  },
+  {
+    "id": "fuel_leak_2",
+    "tokens": 568,
+    "answer_tokens": 195
+  },
+  {
+    "id": "fuel_leak_3",
+    "tokens": 567,
+    "answer_tokens": 195
+  },
+  {
+    "id": "fuel_leak_4",
+    "tokens": 567,
+    "answer_tokens": 195
+  },
+  {
+    "id": "wheel_loose_0",
+    "tokens": 558,
+    "answer_tokens": 187
+  },
+  {
+    "id": "wheel_loose_1",
+    "tokens": 567,
+    "answer_tokens": 187
+  },
+  {
+    "id": "wheel_loose_2",
+    "tokens": 565,
+    "answer_tokens": 187
+  },
+  {
+    "id": "wheel_loose_3",
+    "tokens": 564,
+    "answer_tokens": 187
+  },
+  {
+    "id": "wheel_loose_4",
+    "tokens": 564,
+    "answer_tokens": 187
+  },
+  {
+    "id": "steering_loss_0",
+    "tokens": 551,
+    "answer_tokens": 183
+  },
+  {
+    "id": "steering_loss_1",
+    "tokens": 562,
+    "answer_tokens": 183
+  },
+  {
+    "id": "steering_loss_2",
+    "tokens": 560,
+    "answer_tokens": 183
+  },
+  {
+    "id": "steering_loss_3",
+    "tokens": 559,
+    "answer_tokens": 183
+  },
+  {
+    "id": "steering_loss_4",
+    "tokens": 559,
+    "answer_tokens": 183
+  },
+  {
+    "id": "battery_start_0",
+    "tokens": 545,
+    "answer_tokens": 181
+  },
+  {
+    "id": "battery_start_1",
+    "tokens": 556,
+    "answer_tokens": 181
+  },
+  {
+    "id": "battery_start_2",
+    "tokens": 554,
+    "answer_tokens": 181
+  },
+  {
+    "id": "battery_start_3",
+    "tokens": 553,
+    "answer_tokens": 181
+  },
+  {
+    "id": "battery_start_4",
+    "tokens": 553,
+    "answer_tokens": 181
+  },
+  {
+    "id": "check_steady_0",
+    "tokens": 560,
+    "answer_tokens": 197
+  },
+  {
+    "id": "check_steady_1",
+    "tokens": 571,
+    "answer_tokens": 197
+  },
+  {
+    "id": "check_steady_2",
+    "tokens": 569,
+    "answer_tokens": 197
+  },
+  {
+    "id": "check_steady_3",
+    "tokens": 568,
+    "answer_tokens": 197
+  },
+  {
+    "id": "check_steady_4",
+    "tokens": 568,
+    "answer_tokens": 197
+  },
+  {
+    "id": "idle_rough_0",
+    "tokens": 552,
+    "answer_tokens": 186
+  },
+  {
+    "id": "idle_rough_1",
+    "tokens": 563,
+    "answer_tokens": 186
+  },
+  {
+    "id": "idle_rough_2",
+    "tokens": 561,
+    "answer_tokens": 186
+  },
+  {
+    "id": "idle_rough_3",
+    "tokens": 560,
+    "answer_tokens": 186
+  },
+  {
+    "id": "idle_rough_4",
+    "tokens": 560,
+    "answer_tokens": 186
+  },
+  {
+    "id": "suspension_knock_0",
+    "tokens": 554,
+    "answer_tokens": 180
+  },
+  {
+    "id": "suspension_knock_1",
+    "tokens": 565,
+    "answer_tokens": 180
+  },
+  {
+    "id": "suspension_knock_2",
+    "tokens": 563,
+    "answer_tokens": 180
+  },
+  {
+    "id": "suspension_knock_3",
+    "tokens": 562,
+    "answer_tokens": 180
+  },
+  {
+    "id": "suspension_knock_4",
+    "tokens": 562,
+    "answer_tokens": 180
+  },
+  {
+    "id": "ac_warm_0",
+    "tokens": 539,
+    "answer_tokens": 175
+  },
+  {
+    "id": "ac_warm_1",
+    "tokens": 549,
+    "answer_tokens": 175
+  },
+  {
+    "id": "ac_warm_2",
+    "tokens": 547,
+    "answer_tokens": 175
+  },
+  {
+    "id": "ac_warm_3",
+    "tokens": 546,
+    "answer_tokens": 175
+  },
+  {
+    "id": "ac_warm_4",
+    "tokens": 546,
+    "answer_tokens": 175
+  },
+  {
+    "id": "washer_fail_0",
+    "tokens": 547,
+    "answer_tokens": 182
+  },
+  {
+    "id": "washer_fail_1",
+    "tokens": 558,
+    "answer_tokens": 182
+  },
+  {
+    "id": "washer_fail_2",
+    "tokens": 556,
+    "answer_tokens": 182
+  },
+  {
+    "id": "washer_fail_3",
+    "tokens": 555,
+    "answer_tokens": 182
+  },
+  {
+    "id": "washer_fail_4",
+    "tokens": 555,
+    "answer_tokens": 182
+  },
+  {
+    "id": "oil_service_0",
+    "tokens": 551,
+    "answer_tokens": 184
+  },
+  {
+    "id": "oil_service_1",
+    "tokens": 562,
+    "answer_tokens": 184
+  },
+  {
+    "id": "oil_service_2",
+    "tokens": 560,
+    "answer_tokens": 184
+  },
+  {
+    "id": "oil_service_3",
+    "tokens": 559,
+    "answer_tokens": 184
+  },
+  {
+    "id": "oil_service_4",
+    "tokens": 559,
+    "answer_tokens": 184
+  },
+  {
+    "id": "tire_pressure_0",
+    "tokens": 550,
+    "answer_tokens": 182
+  },
+  {
+    "id": "tire_pressure_1",
+    "tokens": 561,
+    "answer_tokens": 182
+  },
+  {
+    "id": "tire_pressure_2",
+    "tokens": 559,
+    "answer_tokens": 182
+  },
+  {
+    "id": "tire_pressure_3",
+    "tokens": 558,
+    "answer_tokens": 182
+  },
+  {
+    "id": "tire_pressure_4",
+    "tokens": 558,
+    "answer_tokens": 182
+  },
+  {
+    "id": "pads_noise_0",
+    "tokens": 558,
+    "answer_tokens": 189
+  },
+  {
+    "id": "pads_noise_1",
+    "tokens": 568,
+    "answer_tokens": 189
+  },
+  {
+    "id": "pads_noise_2",
+    "tokens": 566,
+    "answer_tokens": 189
+  },
+  {
+    "id": "pads_noise_3",
+    "tokens": 565,
+    "answer_tokens": 189
+  },
+  {
+    "id": "pads_noise_4",
+    "tokens": 565,
+    "answer_tokens": 189
+  },
+  {
+    "id": "clutch_slip_0",
+    "tokens": 551,
+    "answer_tokens": 183
+  },
+  {
+    "id": "clutch_slip_1",
+    "tokens": 562,
+    "answer_tokens": 183
+  },
+  {
+    "id": "clutch_slip_2",
+    "tokens": 560,
+    "answer_tokens": 183
+  },
+  {
+    "id": "clutch_slip_3",
+    "tokens": 559,
+    "answer_tokens": 183
+  },
+  {
+    "id": "clutch_slip_4",
+    "tokens": 559,
+    "answer_tokens": 183
+  },
+  {
+    "id": "coolant_slow_0",
+    "tokens": 554,
+    "answer_tokens": 183
+  },
+  {
+    "id": "coolant_slow_1",
+    "tokens": 565,
+    "answer_tokens": 183
+  },
+  {
+    "id": "coolant_slow_2",
+    "tokens": 563,
+    "answer_tokens": 183
+  },
+  {
+    "id": "coolant_slow_3",
+    "tokens": 562,
+    "answer_tokens": 183
+  },
+  {
+    "id": "coolant_slow_4",
+    "tokens": 562,
+    "answer_tokens": 183
+  },
+  {
+    "id": "wiper_streaks_0",
+    "tokens": 554,
+    "answer_tokens": 188
+  },
+  {
+    "id": "wiper_streaks_1",
+    "tokens": 565,
+    "answer_tokens": 188
+  },
+  {
+    "id": "wiper_streaks_2",
+    "tokens": 563,
+    "answer_tokens": 188
+  },
+  {
+    "id": "wiper_streaks_3",
+    "tokens": 562,
+    "answer_tokens": 188
+  },
+  {
+    "id": "wiper_streaks_4",
+    "tokens": 562,
+    "answer_tokens": 188
+  },
+  {
+    "id": "light_bulb_0",
+    "tokens": 556,
+    "answer_tokens": 190
+  },
+  {
+    "id": "light_bulb_1",
+    "tokens": 566,
+    "answer_tokens": 190
+  },
+  {
+    "id": "light_bulb_2",
+    "tokens": 564,
+    "answer_tokens": 190
+  },
+  {
+    "id": "light_bulb_3",
+    "tokens": 563,
+    "answer_tokens": 190
+  },
+  {
+    "id": "light_bulb_4",
+    "tokens": 563,
+    "answer_tokens": 190
+  },
+  {
+    "id": "filter_service_0",
+    "tokens": 558,
+    "answer_tokens": 188
+  },
+  {
+    "id": "filter_service_1",
+    "tokens": 569,
+    "answer_tokens": 188
+  },
+  {
+    "id": "filter_service_2",
+    "tokens": 567,
+    "answer_tokens": 188
+  },
+  {
+    "id": "filter_service_3",
+    "tokens": 566,
+    "answer_tokens": 188
+  },
+  {
+    "id": "filter_service_4",
+    "tokens": 566,
+    "answer_tokens": 188
+  },
+  {
+    "id": "gear_shift_0",
+    "tokens": 544,
+    "answer_tokens": 172
+  },
+  {
+    "id": "gear_shift_1",
+    "tokens": 553,
+    "answer_tokens": 172
+  },
+  {
+    "id": "tire_cut_0",
+    "tokens": 521,
+    "answer_tokens": 156
+  },
+  {
+    "id": "tire_cut_1",
+    "tokens": 530,
+    "answer_tokens": 156
+  },
+  {
+    "id": "belt_history_0",
+    "tokens": 537,
+    "answer_tokens": 170
+  },
+  {
+    "id": "belt_history_1",
+    "tokens": 546,
+    "answer_tokens": 170
+  },
+  {
+    "id": "heater_cold_0",
+    "tokens": 532,
+    "answer_tokens": 170
+  },
+  {
+    "id": "heater_cold_1",
+    "tokens": 541,
+    "answer_tokens": 170
+  }
+]

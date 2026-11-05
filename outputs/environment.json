@@ -1,0 +1,13 @@
+{
+  "gpu": "Tesla T4",
+  "torch": "2.11.0+cu130",
+  "cuda": "13.0",
+  "seed": 42,
+  "packages": {
+    "transformers": "4.51.3",
+    "peft": "0.15.2",
+    "accelerate": "1.6.0",
+    "bitsandbytes": "0.48.2",
+    "datasets": "3.5.0"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "model_id": "Qwen/Qwen2.5-3B-Instruct",
+  "judge_id": "Qwen/Qwen2.5-7B-Instruct",
+  "seed": 42,
+  "max_length": 768,
+  "max_new_tokens": 384,
+  "max_steps": 50,
+  "gradient_accumulation_steps": 4,
+  "learning_rate": 0.0002,
+  "lora_r": 8,
+  "lora_alpha": 16,
+  "judge_cases": 6
+}

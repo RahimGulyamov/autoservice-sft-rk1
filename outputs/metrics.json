@@ -1,0 +1,72 @@
+[
+  {
+    "metric": "format_ok",
+    "before": 1,
+    "after": 0.625,
+    "delta_pp": -37.5,
+    "delta_ci_low_pp": -58.333333333333336,
+    "delta_ci_high_pp": -20.833333333333336,
+    "n": 24,
+    "groups": 12
+  },
+  {
+    "metric": "urgency_valid",
+    "before": 1,
+    "after": 0.9583333333333334,
+    "delta_pp": -4.1666666666666625,
+    "delta_ci_low_pp": -12.5,
+    "delta_ci_high_pp": 0,
+    "n": 24,
+    "groups": 12
+  },
+  {
+    "metric": "russian_ok",
+    "before": 1,
+    "after": 1,
+    "delta_pp": 0,
+    "delta_ci_low_pp": 0,
+    "delta_ci_high_pp": 0,
+    "n": 24,
+    "groups": 12
+  },
+  {
+    "metric": "length_ok",
+    "before": 0.8333333333333334,
+    "after": 0.7083333333333334,
+    "delta_pp": -12.5,
+    "delta_ci_low_pp": -29.166666666666668,
+    "delta_ci_high_pp": 4.166666666666666,
+    "n": 24,
+    "groups": 12
+  },
+  {
+    "metric": "no_repeated_sentences",
+    "before": 1,
+    "after": 0.9583333333333334,
+    "delta_pp": -4.1666666666666625,
+    "delta_ci_low_pp": -12.5,
+    "delta_ci_high_pp": 0,
+    "n": 24,
+    "groups": 12
+  },
+  {
+    "metric": "contract_ok",
+    "before": 0.8333333333333334,
+    "after": 0.5,
+    "delta_pp": -33.333333333333336,
+    "delta_ci_low_pp": -45.83333333333333,
+    "delta_ci_high_pp": -20.833333333333336,
+    "n": 24,
+    "groups": 12
+  },
+  {
+    "metric": "urgency_correct",
+    "before": 0.6666666666666666,
+    "after": 0.7916666666666666,
+    "delta_pp": 12.5,
+    "delta_ci_low_pp": -12.5,
+    "delta_ci_high_pp": 37.5,
+    "n": 24,
+    "groups": 12
+  }
+]
